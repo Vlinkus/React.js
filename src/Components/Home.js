@@ -11,13 +11,7 @@ export default function Home(){
             <h4>This is Home</h4>
             <br/><br/>
             <h4>This is Home</h4>
-            <br/><br/>
-            <h4>This is Home</h4>
-            <br/><br/>
-            <h4>This is Home</h4>
-            <br/><br/>
-            <h4>This is Home</h4>
-            <br/><br/>
+            
             
         </>
     )

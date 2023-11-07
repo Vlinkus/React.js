@@ -43,15 +43,17 @@ export default function Header(){
                     <div className={`collapse navbar-collapse ${isNavOpen ? 'show' : ''}`} id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <Link to="/" className={`nav-link nav-link-active ${activeNav === "Home"? 'ActiveNavLink' :''}`} aria-current="page">Home</Link>
+                                <Link to="/" className={`nav-link ${activeNav === "Home"? 'nav-link-active' :''}`} aria-current="page" onClick={()=>handleActiveNav("Home")} >Home</Link>
                             </li>
                             <li className="nav-item">
-                                <Link to="/car1" className={`nav-link ${activeNav  === "Carousel 1"? 'ActiveNavLink' :''}`} aria-current="page"> 
+                                <Link to="/car1" className={`nav-link ${activeNav  === "Carousel 1"? 'nav-link-active' :''}`} aria-current="page" onClick={()=>handleActiveNav("Carousel 1")}> 
                                     <span className="nav-link-span"> Carousel 1 </span>
                                 </Link>
                             </li>
                             <li className="nav-item">
-                                <a className={`nav-link ${activeNav === "Carousel 2"? 'ActiveNavLink' :''}`} href="#">Carousel 2</a>
+                                <Link to="/car2" className={`nav-link ${activeNav  === "Carousel 2"? 'nav-link-active' :''}`} aria-current="page" onClick={()=>handleActiveNav("Carousel 2")}> 
+                                    <span className="nav-link-span"> Carousel 2 </span>
+                                </Link>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link disabled" aria-disabled="true">Disabled</a>
