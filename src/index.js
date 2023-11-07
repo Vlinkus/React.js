@@ -1,13 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import "bootstrap/dist/css/bootstrap.min.css";
 import reportWebVitals from './reportWebVitals';
+import ErrorPage from './Components/ErrorPage';
+import Layout from './Components/Layout';
+import Home from './Components/Home';
+import { RouterProvider, createHashRouter } from 'react-router-dom';
+import Carousel from './Components/Carousel/Carousel';
+
+const router = createHashRouter([
+  {
+    path:"/",
+    element: <Layout />,
+    errorElement: <ErrorPage />,
+    children:[
+      {
+        path:"/",
+        element: <Home />,
+      },
+      {
+        path:"/car1",
+        element: <Carousel />,
+      }
+    ],
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router = {router} />
   </React.StrictMode>
 );
 
