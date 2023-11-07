@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/React_js/static/css/main.72efb9e8.css",
+    "main.js": "/React_js/static/js/main.87f6184f.js",
+    "static/js/787.aa5f13f0.chunk.js": "/React_js/static/js/787.aa5f13f0.chunk.js",
+    "static/media/Kenya.jpg": "/React_js/static/media/Kenya.0889f3f221438af90cf3.jpg",
+    "static/media/India.jpg": "/React_js/static/media/India.c4e6aacd46b6c9f69942.jpg",
+    "static/media/Guatemala.jpg": "/React_js/static/media/Guatemala.6efd9dc7811d169c46a2.jpg",
+    "static/media/kitty.png": "/React_js/static/media/kitty.e012d0b6cab00c6a82fe.png",
+    "index.html": "/React_js/index.html",
+    "main.72efb9e8.css.map": "/React_js/static/css/main.72efb9e8.css.map",
+    "main.87f6184f.js.map": "/React_js/static/js/main.87f6184f.js.map",
+    "787.aa5f13f0.chunk.js.map": "/React_js/static/js/787.aa5f13f0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72efb9e8.css",
+    "static/js/main.87f6184f.js"
+  ]
+}
