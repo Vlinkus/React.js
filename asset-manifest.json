@@ -1,19 +1,24 @@
 {
   "files": {
-    "main.css": "/React_js/static/css/main.72efb9e8.css",
-    "main.js": "/React_js/static/js/main.bcf6fc41.js",
+    "main.css": "/React_js/static/css/main.f70b27bb.css",
+    "main.js": "/React_js/static/js/main.5028f28f.js",
     "static/js/787.aa5f13f0.chunk.js": "/React_js/static/js/787.aa5f13f0.chunk.js",
     "static/media/Kenya.jpg": "/React_js/static/media/Kenya.0889f3f221438af90cf3.jpg",
     "static/media/India.jpg": "/React_js/static/media/India.c4e6aacd46b6c9f69942.jpg",
     "static/media/Guatemala.jpg": "/React_js/static/media/Guatemala.6efd9dc7811d169c46a2.jpg",
+    "static/media/flower5.jpg": "/React_js/static/media/flower5.76fba88afd858aa63ec5.jpg",
+    "static/media/flower3.jpg": "/React_js/static/media/flower3.1160d84ec9eabda81703.jpg",
+    "static/media/flower1.jpg": "/React_js/static/media/flower1.b5fe3462953741e3720b.jpg",
+    "static/media/flower2.jpg": "/React_js/static/media/flower2.73b2c6f1c3692e78935f.jpg",
+    "static/media/flower4.jpg": "/React_js/static/media/flower4.b745bafa97274b01836c.jpg",
     "static/media/kitty.png": "/React_js/static/media/kitty.e012d0b6cab00c6a82fe.png",
     "index.html": "/React_js/index.html",
-    "main.72efb9e8.css.map": "/React_js/static/css/main.72efb9e8.css.map",
-    "main.bcf6fc41.js.map": "/React_js/static/js/main.bcf6fc41.js.map",
+    "main.f70b27bb.css.map": "/React_js/static/css/main.f70b27bb.css.map",
+    "main.5028f28f.js.map": "/React_js/static/js/main.5028f28f.js.map",
     "787.aa5f13f0.chunk.js.map": "/React_js/static/js/787.aa5f13f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72efb9e8.css",
-    "static/js/main.bcf6fc41.js"
+    "static/css/main.f70b27bb.css",
+    "static/js/main.5028f28f.js"
   ]
 }
