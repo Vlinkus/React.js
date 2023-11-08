@@ -28,3 +28,29 @@
     
 }
 
+.list-group-item{
+    background: transparent;
+    margin:5px;
+}
+
+.container-footer {
+    padding: 10px;
+    background: #fade5375;
+}
+
+.footerColumn{
+    font-size: large;
+    margin: 10px;
+    color:rgba(170, 21, 21, 0.5);
+}
+.footerColumn::after{
+    content: "\00a0";
+    display: block;
+    width: 4em; /* Adjust the width as needed */
+    border-top: 5px solid rgba(170, 21, 21, 0.2); /* Underline style */
+    
+}
+
+Link{
+    color: rgb(240, 248, 255);
+  }

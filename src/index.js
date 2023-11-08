@@ -8,6 +8,7 @@ import Layout from './Components/Layout';
 import Home from './Components/Home';
 import { RouterProvider, createHashRouter } from 'react-router-dom';
 import Carousel from './Components/Carousel/Carousel';
+import CarouselSlider from './Components/CarouselSlider/CarouselSlider';
 
 const router = createHashRouter([
   {
@@ -22,6 +23,10 @@ const router = createHashRouter([
       {
         path:"/car1",
         element: <Carousel />,
+      },
+      {
+        path:"/car2",
+        element: <CarouselSlider />,
       }
     ],
   }

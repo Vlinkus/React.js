@@ -13,5 +13,18 @@ code {
 }
 
 #root{
+  height: 100% ;
   min-width: 320px;
+  background-color: #e9decc;
+}
+
+
+
+.pallete{
+  color: #fadf53;
+  color: #1a1a1a;
+  color: #FFCF8F;
+  color: #9ED9D2;
+  color: #f7e7ce;
+  color: #d90429;
 }

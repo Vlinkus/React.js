@@ -6,12 +6,12 @@ export default function Footer() {
             <div className="row">
                 <div className="col-sm">
                     <h5 className="footer-block-title">
-                        <span className="footerColumn"> Some Information </span>
+                        <span className="footerColumn"> INFORMATION </span>
                     </h5>
                 </div>
                 <div className="col-sm">
                     <h5 className="footer-block-title">
-                        <span className="footerColumn"> Links </span>
+                        <span className="footerColumn"> LINKS </span>
                     </h5>
                     <ul className="list-group">
                         <li className="list-group-item d-flex justify-content-between align-items-center">
@@ -19,17 +19,17 @@ export default function Footer() {
                                 </Link>
                             <span className="badge bg-primary rounded-pill">0</span>
                         </li>
-                        <li className="list-group-item d-flex justify-content-between align-items-center">
+                        {/* <li className="list-group-item d-flex justify-content-between align-items-center">
                             
                         </li>
                         <li className="list-group-item d-flex justify-content-between align-items-center">
                            
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
                 <div className="col-sm">
                     <h5 className="footer-block-title">
-                        <span className="footerColumn"> Something else </span>
+                        <span className="footerColumn"> SOME THINGS </span>
                     </h5>
 
                 </div>
